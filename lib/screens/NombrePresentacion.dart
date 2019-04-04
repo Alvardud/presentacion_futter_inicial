@@ -92,7 +92,7 @@ class NombrePresentacion extends StatelessWidget {
    @override
    Widget build(BuildContext context) {
      return Text(
-       'Que puedo hacer\ncon Flutter?',
+       'Introduccion a Flutter?',
         style: TextStyle(
          fontSize: 36.0,
          color: Colors.black,

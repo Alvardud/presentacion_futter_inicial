@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:presentacion_flutter/widgets/common.dart';
 
 class ProblemasDesarrolloModerno extends StatelessWidget {
   @override
@@ -7,57 +8,30 @@ class ProblemasDesarrolloModerno extends StatelessWidget {
       height: MediaQuery.of(context).size.height,
       width: MediaQuery.of(context).size.width,
       color: Colors.white,
-      padding: EdgeInsets.only(top: 16.0,bottom: 16.0,right: 8.0,left: 16.0),
+      padding: EdgeInsets.only(top: 16.0),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
-          titulo(),
+          titulo(title: 'Retos de hoy en el desarrollo movil',),
           picker(),
           cuerpo(),
+          footer()
         ],
       ),
     );
   }
 }
 
-class picker extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      height: 5.0,
-      width: 20.0,
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(4.0),
-        color: Colors.yellow[800]
-      ),
-    );
-  }
-}
-
-
-class titulo extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      height: 40.0,
-      padding: EdgeInsets.symmetric(vertical: 8.0),
-      width: MediaQuery.of(context).size.width,
-      child: Text('Retos de hoy en el desarrollo movil',style: TextStyle(
-        fontSize: 22.0,
-        color: Colors.blue[800],
-      ),),
-    );
-  }
-}
 
 class cuerpo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: MediaQuery.of(context).size.height,
-      width: MediaQuery.of(context).size.height,
-      padding: EdgeInsets.all(16.0),
+      height: MediaQuery.of(context).size.height-105,
+      width: MediaQuery.of(context).size.width,
+      padding: EdgeInsets.symmetric(vertical:8.0,horizontal: 16.0),
       child: Row(
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
           columna(num:1),
           Padding(padding: EdgeInsets.symmetric(horizontal: 12.0)),
@@ -81,6 +55,7 @@ class columna extends StatelessWidget {
           color: Colors.black54,
           fontSize: 18.0
         ),),
+        Padding(padding: EdgeInsets.symmetric(vertical: 8.0)),
         elemento(icon:true,
           title: 'Alta calidad de Apps',
           subtitle: 'Integracion de plataformas y sistemas'
@@ -91,7 +66,7 @@ class columna extends StatelessWidget {
         ),
         elemento(icon:false,
             title: 'Debes buscar dos Apps',
-            subtitle: 'Dos equipos, codigos base y herramientas'
+            subtitle: 'Dos equipos, codigos base y\nherramientas'
         ),
         elemento(icon:false,
             title: "Marca y caracteristicas diferentes",
@@ -104,13 +79,16 @@ class columna extends StatelessWidget {
   Widget columna2(){
     return Column(
       children: <Widget>[
-        Text('\"Enfoque de plataformas cruzadas\"',style: TextStyle(
+        Text('\"Enfoque de plataformas\ncruzadas\"',
+          textAlign: TextAlign.center,
+          style: TextStyle(
             color: Colors.black54,
-            fontSize: 18.0
+            fontSize: 18.0,
         ),),
+        Padding(padding: EdgeInsets.symmetric(vertical: 8.0)),
         elemento(icon:true,
             title: 'Desarrollo rapido',
-            subtitle: 'Iteraciones rapidas, recarga caliente (hot reload)'
+            subtitle: 'Iteraciones rapidas, recarga caliente\n(hot reload)'
         ),
         elemento(icon:true,
             title: "Portabilidad unica",
@@ -122,7 +100,7 @@ class columna extends StatelessWidget {
         ),
         elemento(icon:false,
             title: "Aplicacion no nativa",
-            subtitle: 'Los usuarios pueden notar facilmente la diferencia'
+            subtitle: 'Los usuarios pueden notar facilmente\nla diferencia'
         ),
       ],
     );
@@ -130,7 +108,19 @@ class columna extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    num==1?columna1:columna2;
+    if(num==1){
+      return Container(
+        height: MediaQuery.of(context).size.height,
+        width: (MediaQuery.of(context).size.width/2)-28,
+        child: columna1(),
+      );
+    }else{
+      return Container(
+        height: MediaQuery.of(context).size.height,
+        width: (MediaQuery.of(context).size.width/2)-28,
+        child: columna2(),
+      );
+    }
   }
 }
 
@@ -154,6 +144,7 @@ class elemento extends StatelessWidget {
       child: Row(
         children: <Widget>[
           Icon(_icon,size: 25.0,color: _iconColor,),
+          Padding(padding: EdgeInsets.symmetric(horizontal: 4.0),),
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[

@@ -53,7 +53,8 @@ class _AplicationState extends State<Aplication>with TickerProviderStateMixin{
           NombrePresentacion(),
           PresentacionPersonal(),
           ProblemasDesarrolloModerno(),
-          PresentacionTitulos(),
+          PresentacionTitulos(titulo: 'La Solucion:\n"Flutter"',),
+
         ],
       ),
     );
