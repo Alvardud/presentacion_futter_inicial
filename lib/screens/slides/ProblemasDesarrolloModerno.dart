@@ -4,20 +4,9 @@ import 'package:presentacion_flutter/widgets/common.dart';
 class ProblemasDesarrolloModerno extends StatelessWidget {
   @override
   Widget build(BuildContext context){
-    return Container(
-      height: MediaQuery.of(context).size.height,
-      width: MediaQuery.of(context).size.width,
-      color: Colors.white,
-      padding: EdgeInsets.only(top: 16.0),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: <Widget>[
-          titulo(title: 'Retos de hoy en el desarrollo movil',),
-          picker(),
-          cuerpo(),
-          footer()
-        ],
-      ),
+    return estructuraSlide(
+      title: 'Retos de hoy en el desarrollo movil',
+      cuerpo: cuerpo(),
     );
   }
 }
@@ -46,32 +35,31 @@ class columna extends StatelessWidget {
 
   final int num;
 
-  columna({this.num});
+  columna({
+    this.num
+  });
 
   Widget columna1(){
     return Column(
       children: <Widget>[
-        Text('\"Enfoque sobre moviles\"',style: TextStyle(
-          color: Colors.black54,
-          fontSize: 18.0
-        ),),
+        commonText(texto:'\"Enfoque sobre moviles\"',color: Colors.black54,size:18.0),
         Padding(padding: EdgeInsets.symmetric(vertical: 8.0)),
-        elemento(icon:true,
+        elemento(
+          icon:true,
           title: 'Alta calidad de Apps',
-          subtitle: 'Integracion de plataformas y sistemas'
-        ),
-        elemento(icon:true,
+          subtitle: 'Integracion de plataformas y sistemas'),
+        elemento(
+            icon:true,
             title: "Performance alto de UI\'s'",
-            subtitle: 'Codigo nativo, GPU acelerado'
-        ),
-        elemento(icon:false,
+            subtitle: 'Codigo nativo, GPU acelerado'),
+        elemento(
+            icon:false,
             title: 'Debes buscar dos Apps',
-            subtitle: 'Dos equipos, codigos base y\nherramientas'
-        ),
-        elemento(icon:false,
+            subtitle: 'Dos equipos, codigos base y\nherramientas'),
+        elemento(
+            icon:false,
             title: "Marca y caracteristicas diferentes",
-            subtitle: 'Diferntes versiones de dispositivos'
-        ),
+            subtitle: 'Diferntes versiones de dispositivos'),
       ],
     );
   }
@@ -83,25 +71,24 @@ class columna extends StatelessWidget {
           textAlign: TextAlign.center,
           style: TextStyle(
             color: Colors.black54,
-            fontSize: 18.0,
-        ),),
+            fontSize: 18.0,),),
         Padding(padding: EdgeInsets.symmetric(vertical: 8.0)),
-        elemento(icon:true,
+        elemento(
+            icon:true,
             title: 'Desarrollo rapido',
-            subtitle: 'Iteraciones rapidas, recarga caliente\n(hot reload)'
-        ),
-        elemento(icon:true,
+            subtitle: 'Iteraciones rapidas, recarga caliente\n(hot reload)'),
+        elemento(
+            icon:true,
             title: "Portabilidad unica",
-            subtitle: 'Un solo codigo base'
-        ),
-        elemento(icon:false,
+            subtitle: 'Un solo codigo base'),
+        elemento(
+            icon:false,
             title: 'Performance pobre',
-            subtitle: 'Lento, impredecible y sin fluidez'
-        ),
-        elemento(icon:false,
+            subtitle: 'Lento, impredecible y sin fluidez'),
+        elemento(
+            icon:false,
             title: "Aplicacion no nativa",
-            subtitle: 'Los usuarios pueden notar facilmente\nla diferencia'
-        ),
+            subtitle: 'Los usuarios pueden notar facilmente\nla diferencia'),
       ],
     );
   }
@@ -132,7 +119,11 @@ class elemento extends StatelessWidget {
   IconData _icon;
   Color _iconColor;
 
-  elemento({this.title,this.icon,this.subtitle});
+  elemento({
+    this.title,
+    this.icon,
+    this.subtitle
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -153,10 +144,7 @@ class elemento extends StatelessWidget {
                 color: Colors.black54,
                 fontWeight: FontWeight.bold
               ),),
-              Text(subtitle,style: TextStyle(
-                fontSize: 14.0,
-                  color: Colors.black54,
-              ),)
+              commonText(texto:subtitle,size:14.0,color: Colors.black54,),
             ],
           )
         ],

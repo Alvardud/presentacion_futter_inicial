@@ -20,7 +20,9 @@ class titulo extends StatelessWidget {
 
   final String title;
 
-  titulo({this.title});
+  titulo({
+    this.title
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -54,3 +56,57 @@ class footer extends StatelessWidget {
     );
   }
 }
+
+class commonText extends StatelessWidget {
+
+  final String texto;
+  final Color color;
+  final double size;
+
+  commonText({
+    this.size,
+    this.color,
+    this.texto
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Text(
+      texto,style: TextStyle(
+        color: color,
+        fontSize: size,
+      ),
+    );
+  }
+}
+
+class estructuraSlide extends StatelessWidget {
+
+  final String title;
+  final Widget cuerpo;
+
+  estructuraSlide({
+    this.title,
+    this.cuerpo,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      height: MediaQuery.of(context).size.height,
+      width: MediaQuery.of(context).size.width,
+      color: Colors.white,
+      padding: EdgeInsets.only(top: 16.0),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          titulo(title: title,),
+          picker(),
+          cuerpo,
+          footer()
+        ],
+      ),
+    );
+  }
+}
+

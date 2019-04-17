@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:presentacion_flutter/widgets/common.dart';
 
 class PresentacionPersonal extends StatelessWidget {
   @override
@@ -10,21 +11,18 @@ class PresentacionPersonal extends StatelessWidget {
       color: Colors.white,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.end,
-        //crossAxisAlignment: CrossAxisAlignment.end,
         children: <Widget>[
           Row(
             children: <Widget>[
               Container(width: 116.0,),
               Titulo(),
-            ],
-          ),
+            ]),
           Row(
             children: <Widget>[
               Foto(),
               Container(width: 16.0,),
               InformacionPersonal()
-            ],
-          )
+            ])
         ],
       ),
     );
@@ -37,8 +35,8 @@ class Titulo extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
-        Text('Hi!',style: TextStyle(fontSize: 48.0,color: Colors.black54),),
-        Text('my name is:',style: TextStyle(color: Colors.black54,fontSize: 20.0),),
+        commonText(texto:'Hi!',color: Colors.black54,size: 48.0),
+        commonText(texto:'my name is:',color:Colors.black54,size:20.0),
       ],
     );
   }
@@ -69,14 +67,13 @@ class InformacionPersonal extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
-        Text('Alvaro Martinez Mancilla',style: TextStyle(color: Colors.black,fontSize: 20.0),),
+        commonText(texto: 'Alvaro Martinez Mancilla',color: Colors.black,size:20.0),
         Container(height: 4.0,),
-        Text('Co-Founder and mobile developer at Aurora',style: TextStyle(fontSize: 16.0),),
+        commonText(texto:'Co-Founder and mobile developer at Aurora',color: Colors.black,size: 16.0,),
         Container(height: 4.0,),
         Row(
           mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
-            //TODO: adicionar las imagenes de las redes sociales
             RedesSociales(nick: '@alvardud',direccionFoto: 'assets/twitter.png',),
             Container(width: 16.0,),//twitter
             RedesSociales(nick: 'alvardud',direccionFoto: 'assets/github.png',), //github
@@ -92,7 +89,10 @@ class RedesSociales extends StatelessWidget {
   String direccionFoto;
   String nick;
 
-  RedesSociales({this.direccionFoto,this.nick});
+  RedesSociales({
+    this.direccionFoto,
+    this.nick
+  });
 
   @override
   Widget build(BuildContext context) {

@@ -1,6 +1,6 @@
 import 'dart:math';
-
 import 'package:flutter/material.dart';
+import 'package:presentacion_flutter/widgets/common.dart';
 
 class NombrePresentacion extends StatelessWidget {
   @override
@@ -92,7 +92,7 @@ class NombrePresentacion extends StatelessWidget {
    @override
    Widget build(BuildContext context) {
      return Text(
-       'Introduccion a Flutter?',
+       'Introduccion a \nFlutter',
         style: TextStyle(
          fontSize: 36.0,
          color: Colors.black,
@@ -142,11 +142,7 @@ class Datos extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
-          Text('Alvaro Martinez Mancilla',
-            style: TextStyle(
-              color: Colors.black,
-              fontSize: 16.0
-            ),),
+          commonText(texto:'Alvaro Martinez Mancilla',color:Colors.black,size:16.0),
           Container(height: 4.0),
           Text('@alvardud',
             style: TextStyle(

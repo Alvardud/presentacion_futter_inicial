@@ -4,7 +4,9 @@ import 'dart:math';
 class PresentacionTitulos extends StatelessWidget {
 
   final String titulo;
-  PresentacionTitulos({this.titulo});
+  PresentacionTitulos({
+    this.titulo
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +21,8 @@ class PresentacionTitulos extends StatelessWidget {
             right: MediaQuery.of(context).size.width/2.3,
             bottom: -MediaQuery.of(context).size.height*1.5,
             height: MediaQuery.of(context).size.height*3,
-            child: Transform.rotate(angle: -pi/4,
+            child: Transform.rotate(
+                angle: -pi/4,
                 child: ladoIzquierdo()),),
         ],
       ),
@@ -31,13 +34,18 @@ class ladoDerecho extends StatelessWidget {
 
   final String titulo;
 
-  ladoDerecho({this.titulo});
-
+  ladoDerecho({
+    this.titulo
+  });
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.only(bottom:24.0,top: 48.0,left: 32.0,right: 50.0),
+      padding: EdgeInsets.only(
+          bottom:24.0,
+          top: 48.0,
+          left: 32.0,
+          right: 50.0),
       width: MediaQuery.of(context).size.width,
       height: MediaQuery.of(context).size.height,
       color: Colors.white,
@@ -62,15 +70,20 @@ class ladoIzquierdo extends StatelessWidget {
       width: MediaQuery.of(context).size.width/1.5,
       height: MediaQuery.of(context).size.height,
       color: Colors.blue,
-      padding: EdgeInsets.only(top:50.0,bottom: 60.0,right: 50.0),
+      padding: EdgeInsets.only(
+          top:50.0,
+          bottom: 60.0,
+          right: 50.0),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisAlignment: MainAxisAlignment.start,
         children: <Widget>[
           Expanded(child: Container(),),
-          Transform.rotate(angle: pi/4,
+          Transform.rotate(
+              angle: pi/4,
               child: logo()),
-          Container(margin: EdgeInsets.only(right: 20.0),),
+          Container(
+            margin: EdgeInsets.only(right: 20.0),),
         ],
       ),
     );
@@ -102,7 +115,9 @@ class Titulo extends StatelessWidget {
 
   final String titulo;
 
-  Titulo({this.titulo});
+  Titulo({
+    this.titulo
+  });
 
   @override
   Widget build(BuildContext context) {
