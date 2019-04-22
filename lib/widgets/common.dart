@@ -110,3 +110,47 @@ class estructuraSlide extends StatelessWidget {
   }
 }
 
+
+class cardImagen extends StatelessWidget {
+
+  final String direccion;
+  final String nombre;
+  final double width;
+  final double heigth;
+
+  cardImagen({
+    this.heigth,
+    this.width,
+    this.direccion,
+    this.nombre
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: <Widget>[
+          Container(
+            height: heigth,
+            width: width,
+            child: DecoratedBox(
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                  fit: BoxFit.fill,
+                  image: AssetImage(direccion),
+                ),
+              ),
+            ),
+          ),
+          Container(height: 4.0,),
+          Text(nombre,style: TextStyle(
+              color: Colors.black54,fontSize: 16.0
+          ),textAlign: TextAlign.center,
+          )
+        ],
+      ),
+    );
+  }
+}

@@ -85,11 +85,12 @@ class elementoTexto extends StatelessWidget {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(5.0),
         border: Border.all(color: Colors.blue[800]),
-        gradient: LinearGradient(colors: [
+        color: Colors.blue[800]
+        /*gradient: LinearGradient(colors: [
           Colors.blue[300],
           Colors.blue,
           Colors.blue[800]
-        ])
+        ])*/
       ),
       child: Column(
         children: <Widget>[

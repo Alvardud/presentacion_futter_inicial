@@ -45,6 +45,32 @@ flutter:
    - assets/foto.jpg
    - assets/github.png
    - assets/twitter.png
+   - assets/applelogo.jpg
+   - assets/androidcel.png
+   - assets/androidicon.png
+   - assets/androidlogo.png
+   - assets/androidstudio.jpg
+   - assets/catalogo1.png
+   - assets/catalogo2.png
+   - assets/cloud.png
+   - assets/codigo.png
+   - assets/dartlogo.png
+   - assets/escritorio.png
+   - assets/fasticono.png
+   - assets/firebase.png
+   - assets/Flutter-3.jpg
+   - assets/hummingbird.png
+   - assets/icons8-google_code.png
+   - assets/iosicon.png
+   - assets/laptop.png
+   - assets/macos-logo.png
+   - assets/materialdesign-min.png
+   - assets/mlkit.png
+   - assets/ubuntu-logo32.png
+   - assets/vscode.png
+   - assets/windows.png
+   - assets/xcode.jpg
+   - assets/fuchsia.jpg
   #- images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

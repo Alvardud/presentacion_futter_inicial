@@ -51,9 +51,8 @@ class ladoDerecho extends StatelessWidget {
       color: Colors.white,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
-        mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          Expanded(child: Container()),
+          //Expanded(child: Container()),
           Titulo(titulo:titulo),
           Expanded(child: Container(),),
         ],
