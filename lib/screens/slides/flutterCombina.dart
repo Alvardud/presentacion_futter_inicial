@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:presentacion_flutter/widgets/common.dart';
 
-class flutterCombina extends StatelessWidget {
+class FlutterCombina extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return estructuraSlide(

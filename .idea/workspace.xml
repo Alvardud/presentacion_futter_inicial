@@ -2,23 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="753c5bee-d6c2-4c1e-a2f8-fad238406a13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/screens/common/SlideUnaImagen.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/screens/slides/ComponentesFamiliaGoogle.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/screens/slides/Entornos.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/screens/slides/Fuchsia.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/screens/slides/todosEntornos.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/InformacionPersonalLinks.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/slides/EjemploAnimacion.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/slides/EjemploFlare.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/slides/HerramientasNativas.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/slides/TodoWidget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/widgets/webView.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/androidapp.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/androidcel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/helloapp.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/laptop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.m" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/common/PresentacionTitulos.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/common/PresentacionTitulos.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/slides/Caracteristicas.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/slides/Caracteristicas.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/slides/CaracteristicasDart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/slides/CaracteristicasDart.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/widgets/common.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/common.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/Gracias.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/Gracias.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/PresentacionPersonal.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/PresentacionPersonal.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/slides/DesarrolloRapido.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/slides/DesarrolloRapido.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/slides/LenguajeProgramacion.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/slides/LenguajeProgramacion.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/slides/QueEsflutter.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/slides/QueEsflutter.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/slides/estructura.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/slides/estructura.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/slides/flutterCombina.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/slides/flutterCombina.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentacion_flutter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/presentacion_flutter.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,24 +48,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="601">
-              <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-                <element signature="n#!!block;n#Aplication#0" />
-              </folding>
+            <state relative-caret-position="-1400">
+              <caret line="23" column="74" selection-start-line="23" selection-start-column="74" selection-end-line="23" selection-end-column="74" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/screens/slides/todosEntornos.dart">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/screens/slides/EjemploAnimacion.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-42">
-              <caret line="42" column="113" selection-start-line="42" selection-start-column="113" selection-end-line="42" selection-end-column="113" />
+            <state relative-caret-position="284">
+              <caret line="282" column="85" lean-forward="true" selection-start-line="282" selection-start-column="85" selection-end-line="282" selection-end-column="85" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -56,22 +70,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/screens/slides/Caracteristicas.dart">
+        <entry file="file://$PROJECT_DIR$/.flutter-plugins">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="70" column="59" selection-start-line="70" selection-start-column="59" selection-end-line="70" selection-end-column="59" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="23">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/screens/slides/ComponentesFamiliaGoogle.dart">
+        <entry file="file://$PROJECT_DIR$/lib/screens/slides/EjemploFlare.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="64" column="6" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
+            <state relative-caret-position="86">
+              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -82,29 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pubspec.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="72" column="23" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/screens/common/SlideUnaImagen.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-373">
-              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/screens/slides/Fuchsia.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+            <state relative-caret-position="93">
+              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -112,7 +102,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/widgets/common.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="3335">
               <caret line="145" column="12" selection-start-line="145" selection-start-column="12" selection-end-line="145" selection-end-column="12" />
             </state>
           </provider>
@@ -135,26 +125,33 @@
       <list>
         <option value="$PROJECT_DIR$/lib/screens/PresentacionTitulos.dart" />
         <option value="$PROJECT_DIR$/lib/screens/NombrePresentacion.dart" />
-        <option value="$PROJECT_DIR$/lib/screens/PresentacionPersonal.dart" />
-        <option value="$PROJECT_DIR$/lib/screens/slides/QueEsflutter.dart" />
-        <option value="$PROJECT_DIR$/lib/screens/slides/estructura.dart" />
-        <option value="$PROJECT_DIR$/lib/screens/slides/flutterCombina.dart" />
-        <option value="$PROJECT_DIR$/lib/screens/slides/LenguajeProgramacion.dart" />
         <option value="$PROJECT_DIR$/lib/screens/slides/ProblemasDesarrolloModerno.dart" />
-        <option value="$PROJECT_DIR$/lib/screens/slides/DesarrolloRapido.dart" />
-        <option value="$PROJECT_DIR$/lib/screens/Gracias.dart" />
         <option value="$PROJECT_DIR$/lib/screens/common/PresentacionTitulos.dart" />
         <option value="$PROJECT_DIR$/lib/screens/slides/CaracteristicasDart.dart" />
-        <option value="$PROJECT_DIR$/pubspec.yaml" />
         <option value="$PROJECT_DIR$/lib/screens/slides/Entornos.dart" />
         <option value="$PROJECT_DIR$/lib/screens/slides/EjemploSintaxis.dart" />
         <option value="$PROJECT_DIR$/lib/widgets/common.dart" />
         <option value="$PROJECT_DIR$/lib/screens/common/SlideUnaImagen.dart" />
-        <option value="$PROJECT_DIR$/lib/main.dart" />
         <option value="$PROJECT_DIR$/lib/screens/slides/Caracteristicas.dart" />
         <option value="$PROJECT_DIR$/lib/screens/slides/ComponentesFamiliaGoogle.dart" />
         <option value="$PROJECT_DIR$/lib/screens/slides/Fuchsia.dart" />
         <option value="$PROJECT_DIR$/lib/screens/slides/todosEntornos.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/slides/flutterCombina.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/slides/LenguajeProgramacion.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/PresentacionPersonal.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/slides/TodoWidget.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/slides/estructura.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/slides/HerramientasNativas.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/slides/EjemploFlare.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/slides/QueEsflutter.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/slides/DesarrolloRapido.dart" />
+        <option value="$PROJECT_DIR$/lib/main.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/Gracias.dart" />
+        <option value="$PROJECT_DIR$/pubspec.yaml" />
+        <option value="$PROJECT_DIR$/lib/widgets/webView.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/InformacionPersonalLinks.dart" />
+        <option value="$PROJECT_DIR$/.flutter-plugins" />
+        <option value="$PROJECT_DIR$/lib/screens/slides/EjemploAnimacion.dart" />
       </list>
     </option>
   </component>
@@ -169,6 +166,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,50 +185,23 @@
               <item name="presentacion_futter_inicial" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="presentacion_futter_inicial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="presentacion_futter_inicial" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="presentacion_futter_inicial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="presentacion_futter_inicial" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="presentacion_futter_inicial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="presentacion_futter_inicial" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-              <item name="slides" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="presentacion_futter_inicial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="presentacion_futter_inicial" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="widgets" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555968894554" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556067426020" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="flutter.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -273,11 +245,15 @@
       <workItem from="1555520986711" duration="7958000" />
       <workItem from="1555944703064" duration="4783000" />
       <workItem from="1555958374391" duration="10298000" />
+      <workItem from="1555979210302" duration="1592000" />
+      <workItem from="1555984195661" duration="3178000" />
+      <workItem from="1556040739243" duration="4210000" />
+      <workItem from="1556046530602" duration="19000000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58426000" />
+    <option name="totallyTimeSpent" value="86406000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1366" height="738" extended-state="6" />
@@ -288,10 +264,10 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="UI Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.30227274" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.27272728" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3238255" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3808725" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -363,26 +339,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/screens/slides/estructura.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/screens/slides/flutterCombina.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/screens/NombrePresentacion.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -400,16 +356,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/screens/slides/QueEsflutter.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/screens/common/PresentacionTitulos.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-69">
@@ -417,37 +363,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/screens/Gracias.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/screens/PresentacionPersonal.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="102" column="22" selection-start-line="102" selection-start-column="22" selection-end-line="102" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="n#!!block;n#Foto#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/screens/slides/EjemploSintaxis.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/slides/EjemploSintaxis.dart" />
     <entry file="file://$PROJECT_DIR$/lib/screens/slides/CaracteristicasDart.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -465,16 +381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/screens/slides/DesarrolloRapido.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="57" column="82" selection-start-line="57" selection-start-column="82" selection-end-line="57" selection-end-column="82" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/screens/slides/Entornos.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="989">
@@ -485,40 +391,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/screens/slides/LenguajeProgramacion.dart">
+    <entry file="file://$PROJECT_DIR$/lib/screens/slides/todosEntornos.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-207">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/widgets/common.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="145" column="12" selection-start-line="145" selection-start-column="12" selection-end-line="145" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/screens/common/SlideUnaImagen.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-373">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        <state relative-caret-position="368">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="19" selection-end-column="54" />
           <folding>
-            <element signature="e#0#58#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="72" column="23" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/screens/slides/ComponentesFamiliaGoogle.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
+        <state relative-caret-position="1449">
           <caret line="64" column="6" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
@@ -526,40 +411,182 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/screens/slides/Caracteristicas.dart">
+    <entry file="file://$PROJECT_DIR$/lib/screens/common/SlideUnaImagen.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="70" column="59" selection-start-line="70" selection-start-column="59" selection-end-line="70" selection-end-column="59" />
+        <state relative-caret-position="529">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/screens/slides/Fuchsia.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
+        <state relative-caret-position="644">
           <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/screens/slides/todosEntornos.dart">
+    <entry file="file://$PROJECT_DIR$/lib/screens/slides/Caracteristicas.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42">
-          <caret line="42" column="113" selection-start-line="42" selection-start-column="113" selection-end-line="42" selection-end-column="113" />
+        <state relative-caret-position="157">
+          <caret line="85" column="18" selection-start-line="76" selection-start-column="15" selection-end-line="85" selection-end-column="18" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main.dart">
+    <entry file="file://$PROJECT_DIR$/lib/screens/slides/flutterCombina.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+        <state relative-caret-position="368">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="19" selection-end-column="69" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-            <element signature="n#!!block;n#Aplication#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/widgets/common.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3335">
+          <caret line="145" column="12" selection-start-line="145" selection-start-column="12" selection-end-line="145" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/slides/TodoWidget.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/slides/estructura.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="99" column="35" selection-start-line="99" selection-start-column="35" selection-end-line="99" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/slides/HerramientasNativas.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-930">
+          <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/slides/QueEsflutter.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/slides/LenguajeProgramacion.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/slides/EjemploFlare.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/slides/DesarrolloRapido.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="86" column="39" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/PresentacionPersonal.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="64" column="11" lean-forward="true" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="n#!!block;n#Foto#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/Gracias.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="26" column="76" lean-forward="true" selection-start-line="26" selection-start-column="76" selection-end-line="26" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/widgets/webView.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-328">
+          <folding>
+            <element signature="e#1#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/InformacionPersonalLinks.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="n#!!block;n#Foto#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1400">
+          <caret line="23" column="74" selection-start-line="23" selection-start-column="74" selection-end-line="23" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.flutter-plugins">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/slides/EjemploAnimacion.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="282" column="85" lean-forward="true" selection-start-line="282" selection-start-column="85" selection-end-line="282" selection-end-column="85" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>

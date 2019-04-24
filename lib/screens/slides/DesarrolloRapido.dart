@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:presentacion_flutter/widgets/common.dart';
+import 'package:flare_flutter/flare_actor.dart';
 
 class DesarrolloRapido extends StatelessWidget {
   @override
@@ -63,13 +64,33 @@ class texto extends StatelessWidget {
   }
 }
 
-class fondo extends StatelessWidget {
+class fondo extends StatefulWidget{
+
+  @override
+  _fondoState createState() => _fondoState();
+}
+
+class _fondoState extends State<fondo> {
+String _animation;
+
+initState(){
+  _animation = 'idle';
+}
+
   @override
   Widget build(BuildContext context) {
     return Container(
       height: MediaQuery.of(context).size.height,
       width: MediaQuery.of(context).size.width/2,
       color: Colors.blue[800],
+      child: Center(
+        child: FlareActor('assets/Filip.flr',
+          alignment: Alignment.center,
+          fit: BoxFit.contain,
+          animation: _animation,
+          isPaused: false,
+        ),
+      ),
     );
   }
 }

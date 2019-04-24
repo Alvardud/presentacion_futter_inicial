@@ -24,7 +24,7 @@ class cuerpo extends StatelessWidget {
       children: <Widget>[
         commonText(texto: 'Thank you!',color: Colors.white,size: 60.0,),
         Container(height: 50.0,),
-        commonText(texto: 'flutter.io',color: Colors.blue[300],size: 24.0,)
+        commonText(texto: 'flutter.dev',color: Colors.blue[300],size: 24.0,)
       ],
     );
   }

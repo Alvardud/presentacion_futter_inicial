@@ -33,7 +33,16 @@ class cuerpo extends StatelessWidget {
             ),
           ),
           Expanded(
-            child: Container(),
+            child: Container(
+              height: 120.0,
+              child: DecoratedBox(
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    image: AssetImage('assets/dartlogo.png'),
+                  ),
+                ),
+              ),
+            ),
           )
         ],
       ),

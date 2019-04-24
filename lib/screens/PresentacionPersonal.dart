@@ -69,7 +69,7 @@ class InformacionPersonal extends StatelessWidget {
       children: <Widget>[
         commonText(texto: 'Alvaro Martinez Mancilla',color: Colors.black,size:20.0),
         Container(height: 4.0,),
-        commonText(texto:'Co-Founder and mobile developer at Aurora',color: Colors.black,size: 16.0,),
+        commonText(texto:'Co-Founder and mobile developer at AuroraSoft',color: Colors.black,size: 16.0,),
         Container(height: 4.0,),
         Row(
           mainAxisAlignment: MainAxisAlignment.start,

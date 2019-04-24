@@ -18,7 +18,16 @@ class cuerpo extends StatelessWidget {
       height: MediaQuery.of(context).size.height-105,
       width: MediaQuery.of(context).size.width,
       padding: EdgeInsets.symmetric(vertical:8.0,horizontal: 32.0),
-      child: Contenedortexto(),
+      child: Row(
+        children: <Widget>[
+          Contenedortexto(),
+          Container(
+            width: 250.0,
+            height: 400.0,
+            child: Center(
+            child: Image.asset('assets/Flutter-3.jpg',fit: BoxFit.contain,),),)
+        ],
+      ),
     );
   }
 }

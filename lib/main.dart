@@ -17,9 +17,13 @@ import 'package:presentacion_flutter/screens/slides/Fuchsia.dart';
 import 'package:presentacion_flutter/screens/slides/Entornos.dart';
 import 'package:presentacion_flutter/screens/common/SlideUnaImagen.dart';
 import 'package:presentacion_flutter/screens/slides/ComponentesFamiliaGoogle.dart';
+import 'package:presentacion_flutter/screens/slides/HerramientasNativas.dart';
+import 'package:presentacion_flutter/screens/slides/EjemploFlare.dart';
+import 'package:presentacion_flutter/screens/slides/EjemploAnimacion.dart';
+import 'package:presentacion_flutter/screens/slides/TodoWidget.dart';
+import 'package:presentacion_flutter/screens/InformacionPersonalLinks.dart';
 
 void main(){
-  //TODO: quitar el color del status bar, como tambien obligar que la orientacion sea horizontal
   SystemChrome.setEnabledSystemUIOverlays([]);
   SystemChrome.setPreferredOrientations([DeviceOrientation.landscapeLeft])
       .then((_) {
@@ -33,7 +37,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        //TODO: hacer el controlador de apps como practica se utilizara un TabBarView
         body: Aplication(),
       ),
     );
@@ -51,9 +54,9 @@ class _AplicationState extends State<Aplication>with TickerProviderStateMixin{
 
   @override
   void initState() {
-    //TODO: cammbiar el numero de tabs
-    _tabController = TabController(length: 24, vsync: this);
+    _tabController = TabController(length: 29, vsync: this);
   }
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -67,10 +70,10 @@ class _AplicationState extends State<Aplication>with TickerProviderStateMixin{
           ProblemasDesarrolloModerno(),
           PresentacionTitulos(titulo: 'La Solucion:\n"Flutter"',),
           QueEsFlutter(),
-          flutterCombina(),
+          FlutterCombina(),
           LenguajeProgramacion(),
           CaracteristicasDart(),
-          Estructura(),   //------------------->
+          Estructura(),
           Caracteristicas(),
           DesarrolloRapido(),
           PresentacionTitulos(titulo: 'Que puedo desarrollar\ncon Flutter?',),
@@ -80,18 +83,18 @@ class _AplicationState extends State<Aplication>with TickerProviderStateMixin{
           TodosEntornos(),   //IOS, Android, Web, Windows, Linux
           Fuchsia(),
           Entornos(),   //AndroidStudio, Vscode, Xcode
-          //TodoWidget(),
-          SlideUnaImagen(titulo: 'Sintaxis Sencilla',imageHeigth: 300.0,imageWidth: 400.0,direccion: 'assets/codigo.png',),//EjemploSintaxis,
+          TodoWidget(),
           //-----CatalogoWidgets
           SlideUnaImagen(titulo: 'Catalogo Widgets',imageWidth: 300.0,imageHeigth: 400.0,direccion: 'assets/catalogo1.png',),
           SlideUnaImagen(titulo: 'Catalogo Widgets',imageWidth: 300.0,imageHeigth: 400.0,direccion: 'assets/catalogo2.png',),
-          //HerramientasNativas(),
+          SlideUnaImagen(titulo: 'Sintaxis Sencilla',imageHeigth: 300.0,imageWidth: 400.0,direccion: 'assets/codigo.png',),//EjemploSintaxis
+          HerramientasNativas(),
           PresentacionTitulos(titulo: 'Animaciones',),
-          //EjemploAnimacion(),
-          //EjemploFlare(),
+          EjemploAnimacion(),   //--------------------
+          EjemploFlare(),
           ComponentesFamiliaGoogle(),
           Gracias(),
-          //InformacionPersonalLinks()
+          InformacionPersonalLinks()
         ],
       ),
     );
